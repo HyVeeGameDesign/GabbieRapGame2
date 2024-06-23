@@ -7,6 +7,7 @@ const rapperImages = [
     "a_tribe_called_quest.png",
     "digable_planets.png",
     "lily_blazin.png", // Lily Blazin' image
+    "lil_gabbie.png", // Lil' Gabrielle image
     "notorious_david.png"
 ];
 
@@ -23,6 +24,7 @@ const rappers = [
     { name: "A Tribe Called Quest", bar: "Can I kick it? Yes, you can!" },
     { name: "Digable Planets", bar: "We be to rap what key be to lock" },
     { name: "Lily Blazin'", bar: "Chillin' with my cats, sippin' on Red Bull, I'm not violent, just keepin' it cool." }, // Lily Blazin' details
+    { name: "Lil' Gabrielle", bar: "Rocking fishnets, covered in mosquito bites, hotboxing with Hello Kitty" }, // Lil' Gabrielle details
     { name: "The Notorious D.A.V.I.D.", bar: "You wanna sip mo' on my living room flo'? Play Nintendo with Cease a Leo. Pick up my phone say, 'Poppa not home'" }
 ];
 
@@ -100,3 +102,4 @@ function animateFireworks() {
         fireworksContainer.innerHTML = '';
     }, 7000); // fireworks display for 7 seconds
 }
+
