@@ -73,6 +73,7 @@ function animateConfetti() {
         const confettiPiece = document.createElement('div');
         confettiPiece.className = 'confetti-piece';
         confettiPiece.style.left = Math.random() * 100 + 'vw';
+        confettiPiece.style.animationDelay = Math.random() * 5 + 's';
         confettiContainer.appendChild(confettiPiece);
     }
 }
