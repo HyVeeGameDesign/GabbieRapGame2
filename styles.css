@@ -4,11 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Thicker font */
-    font-weight: bold; /* Make the text bold */
-    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif; /* Original font family */
+    color: #fff; /* Original text color */
     text-align: center;
-    background: #f0f0f0; /* Lighter background color */
+    background: #f0f0f0; /* Original background color */
     position: relative; /* Ensure stacking context for overlay */
 }
 
