@@ -56,10 +56,11 @@ input {
 
 #confetti {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
     pointer-events: none;
     overflow: hidden;
@@ -87,10 +88,11 @@ input {
 
 #fireworks {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
     z-index: 2;
     pointer-events: none;
     overflow: hidden;
@@ -108,7 +110,6 @@ input {
 
 @keyframes fireworksAnimation {
     0% {
-        bottom: 0;
         transform: scale(0);
         opacity: 1;
     }
@@ -116,8 +117,8 @@ input {
         transform: scale(1);
     }
     100% {
-        bottom: 50%;
         transform: scale(1.5);
         opacity: 0;
     }
 }
+
