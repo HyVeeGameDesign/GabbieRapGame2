@@ -8,6 +8,10 @@ body {
     color: #fff;
     text-align: center;
     background: radial-gradient(circle, #333333, #cccccc);
+    background-image: url('graffiti.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+    opacity: 0.95; /* Adjust opacity for faded effect */
 }
 
 #gameContainer {
