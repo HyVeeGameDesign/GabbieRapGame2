@@ -67,17 +67,29 @@ function nextRapper() {
 }
 
 function animateConfetti() {
-    const confetti = document.getElementById('confetti');
-    confetti.style.display = 'block';
-    setTimeout(() => {
-        confetti.style.display = 'none';
-    }, 5000); // confetti display for 5 seconds
+    const confettiContainer = document.getElementById('confetti');
+    confettiContainer.innerHTML = '';
+    for (let i = 0; i < 100; i++) {
+        const confettiPiece = document.createElement('div');
+        confettiPiece.className = 'confetti-piece';
+        confettiPiece.style.left = Math.random() * 100 + 'vw';
+        confettiContainer.appendChild(confettiPiece);
+    }
 }
 
 function animateFireworks() {
-    const fireworks = document.getElementById('fireworks');
-    fireworks.style.display = 'block';
+    const fireworksContainer = document.getElementById('fireworks');
+    fireworksContainer.innerHTML = '';
+    for (let i = 0; i < 20; i++) {
+        setTimeout(() => {
+            const firework = document.createElement('div');
+            firework.className = 'firework';
+            firework.style.left = Math.random() * 100 + 'vw';
+            firework.style.animationDelay = Math.random() * 2 + 's';
+            fireworksContainer.appendChild(firework);
+        }, i * 100);
+    }
     setTimeout(() => {
-        fireworks.style.display = 'none';
-    }, 5000); // fireworks display for 5 seconds
+        fireworksContainer.innerHTML = '';
+    }, 7000); // fireworks display for 7 seconds
 }
