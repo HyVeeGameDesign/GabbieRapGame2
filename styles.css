@@ -6,8 +6,7 @@ body {
     height: 100vh;
     font-family: 'Arial Black', 'Arial Bold', sans-serif; /* Thicker font */
     font-weight: bold; /* Make the text bold */
-    font-style: italic; /* Italicize the text */
-    color: #333; /* Darker font color */
+    color: #fff; /* White text */
     text-align: center;
     background: #f0f0f0; /* Lighter background color */
     position: relative; /* Ensure stacking context for overlay */
