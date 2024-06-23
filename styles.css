@@ -7,11 +7,10 @@ body {
     font-family: 'Times New Roman', serif;
     color: #fff;
     text-align: center;
-    background: radial-gradient(circle, #333333, #cccccc);
-    background-image: url('images/smokin.png'); /* Adjust path if necessary */
-    background-size: cover;
-    background-blend-mode: multiply; /* Darkens the background image */
-    opacity: 0.85; /* Adjust opacity for faded effect */
+    background: radial-gradient(circle, #333333, #cccccc),
+                url('images/smokin.png') center center/cover;
+    background-blend-mode: multiply;
+    opacity: 0.85;
 }
 
 #gameContainer {
