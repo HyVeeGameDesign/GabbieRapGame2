@@ -8,7 +8,7 @@ body {
     color: #fff;
     text-align: center;
     background: radial-gradient(circle, #333333, #cccccc),
-                url('images/smokin.png') center center/cover;
+                url('images/gang_guy.png') center center/cover;
     background-blend-mode: multiply;
     opacity: 0.85;
 }
