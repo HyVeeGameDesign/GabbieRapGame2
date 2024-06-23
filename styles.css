@@ -8,7 +8,7 @@ body {
     color: #fff;
     text-align: center;
     background: radial-gradient(circle, #333333, #cccccc);
-    background-image: url('images/lights.png'); /* Adjust path if necessary */
+    background-image: url('images/rap_battle.png'); /* Adjust path if necessary */
     background-size: cover;
     background-blend-mode: multiply; /* Darkens the background image */
     opacity: 0.85; /* Adjust opacity for faded effect */
