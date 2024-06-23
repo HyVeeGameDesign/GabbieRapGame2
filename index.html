@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rap Battle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="introScreen">
+            <h1>Welcome Gabbie, or should I say, Lil Gabbert</h1>
+            <p>Lil Lily has been captured by The Notorious D.A.V.I.D. You must save her from the wrath of hip-hop and rap stars. Are you ready to embark on this epic quest to save your wife?</p>
+            <button id="startButton">Start</button>
+        </div>
+        <div id="battleScreen" style="display: none;">
+            <h1 id="instructions">Spit a bar and diss the rapper to move onto the next level.</h1>
+            <h2 id="rapperName"></h2>
+            <p id="rapperBar"></p>
+            <input type="text" id="playerInput" placeholder="Type your diss here..." />
+            <button id="submitButton">Submit</button>
+            <button id="nextButton" style="display: none;">Next</button>
+            <img src="" id="rapperImage" alt="Rapper Image">
+        </div>
+        <div id="finalScreen" style="display: none;">
+            <h1>Thank you for playing G-Money</h1>
+            <p>You've saved the damsel in distress, Lil Lily!</p>
+            <img src="" id="lilLilyImage" alt="Lil Lily Image">
+            <div id="confetti"></div>
+            <div id="fireworks">
+                <div class="firework red"></div>
+                <div class="firework green"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
