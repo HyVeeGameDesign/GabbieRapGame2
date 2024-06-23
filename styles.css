@@ -8,10 +8,10 @@ body {
     color: #fff;
     text-align: center;
     background: radial-gradient(circle, #333333, #cccccc);
-    background-image: url('images/lights.png');
+    background-image: url('images/lights.png'); /* Adjust path if necessary */
     background-size: cover;
     background-blend-mode: overlay;
-    opacity: 0.95; /* Adjust opacity for faded effect */
+    opacity: 0.90; /* Adjust opacity for faded effect */
 }
 
 #gameContainer {
@@ -125,4 +125,3 @@ input {
         opacity: 0;
     }
 }
-
