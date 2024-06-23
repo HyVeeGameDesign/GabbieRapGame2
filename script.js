@@ -3,6 +3,7 @@ const rapperImages = [
     "busta_rhymes.png",
     "nas.png",
     "kitty.png", // Hello Kitty image
+    "italian_creator.png", // Italian the Creator image
     "a_tribe_called_quest.png",
     "digable_planets.png",
     "notorious_david.png"
@@ -17,6 +18,7 @@ const rappers = [
     { name: "Busta Rhymes", bar: "Gimme some more" },
     { name: "Nas", bar: "I never sleep, 'cause sleep is the cousin of death" },
     { name: "Hello Kitty", bar: "I'm cute and sweet, but don't underestimate my beat!" }, // Hello Kitty details
+    { name: "Italian the Creator", bar: "I'm tryna buy my neighbor house and turn it to a yard. If you don't know my grandma name, then we ain't really dogs, mama mia!" }, // Italian the Creator details
     { name: "A Tribe Called Quest", bar: "Can I kick it? Yes, you can!" },
     { name: "Digable Planets", bar: "We be to rap what key be to lock" },
     { name: "The Notorious D.A.V.I.D.", bar: "You wanna sip mo' on my living room flo'? Play Nintendo with Cease a Leo. Pick up my phone say, 'Poppa not home'" }
